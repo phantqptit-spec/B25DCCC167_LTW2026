@@ -46,7 +46,7 @@ const App = () => {
         });
     };
     const questionContent = loading ? (
-        <p>Đang tải câu hỏi...</p>
+        <p>Đang tải câu hỏi</p>
     ) : error ? (
         <p>Không tải được câu hỏi.</p>
     ) : null;
